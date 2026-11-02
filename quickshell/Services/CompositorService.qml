@@ -2055,7 +2055,7 @@ Singleton {
             });
             return;
         case "umbriel":
-            UmbrielService.action(`workspace-switch:${record.idx}/${record.output}`);
+            UmbrielService.action(`workspace-switch ${record.idx} --output ${record.output}`);
             return;
         }
     }
