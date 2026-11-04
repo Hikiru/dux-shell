@@ -2055,7 +2055,7 @@ Singleton {
             });
             return;
         case "umbriel":
-            UmbrielService.action(`workspace-switch ${record.idx} --output ${record.output}`);
+            UmbrielService.action(["workspace-switch", String(record.idx), "--output", record.output]);
             return;
         }
     }
@@ -2214,7 +2214,7 @@ Singleton {
             NiriService.focusWindow(windowId);
             return true;
         case "umbriel":
-            UmbrielService.action("window-focus:" + windowId);
+            UmbrielService.action(["window-focus", windowId]);
             return true;
         default:
             return false;
