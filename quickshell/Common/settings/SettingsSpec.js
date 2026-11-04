@@ -782,6 +782,18 @@ var LOCAL_SPEC = {
             }
         ]
     },
+    weatherProviders: {
+        def: [
+            {
+                id: "openmeteo",
+                enabled: true
+            },
+            {
+                id: "metno",
+                enabled: false
+            }
+        ]
+    },
     appIdSubstitutions: {
         def: [
             {
@@ -1433,6 +1445,12 @@ var LOCAL_SPEC = {
     },
     notificationHistoryEnabled: {
         def: true
+    },
+    notificationLeadingShortcut: {
+        def: "dnd"
+    },
+    notificationTrailingShortcut: {
+        def: "history"
     },
     notificationHistoryMaxCount: {
         def: 50

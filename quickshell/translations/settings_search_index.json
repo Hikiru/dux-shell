@@ -5072,6 +5072,48 @@
     "icon": "view_compact"
   },
   {
+    "section": "dockMiddleClickAction",
+    "label": "Middle-click action",
+    "tabIndex": 5,
+    "category": "General",
+    "keywords": [
+      "action",
+      "click",
+      "close",
+      "dock",
+      "general",
+      "instance",
+      "launch",
+      "launcher bar",
+      "middle",
+      "middle-click",
+      "panel",
+      "taskbar"
+    ],
+    "parentLabel": "Dock"
+  },
+  {
+    "section": "dockMouseBehavior",
+    "label": "Mouse behavior",
+    "tabIndex": 5,
+    "category": "General",
+    "keywords": [
+      "behavior",
+      "close",
+      "dock",
+      "general",
+      "instance",
+      "launch",
+      "launcher bar",
+      "middle-click",
+      "mouse",
+      "panel",
+      "taskbar"
+    ],
+    "parentLabel": "Dock",
+    "icon": "mouse"
+  },
+  {
     "section": "dockEditOnRightClick",
     "label": "Right-click empty space to edit",
     "tabIndex": 5,
@@ -9288,7 +9330,7 @@
   },
   {
     "section": "softwareUpdatesShell",
-    "label": "Dux Shell",
+    "label": "Dux Modular Shell",
     "tabIndex": 20,
     "category": "Software updates",
     "keywords": [
@@ -9296,6 +9338,7 @@
       "dms",
       "dux",
       "integrations",
+      "modular",
       "restart",
       "shell",
       "software",
@@ -17524,6 +17567,31 @@
       "weather"
     ],
     "parentLabel": "Date, time & region"
+  },
+  {
+    "section": "weatherProviders",
+    "label": "Weather providers",
+    "tabIndex": 56,
+    "category": "Weather",
+    "keywords": [
+      "climate",
+      "date,",
+      "fallback",
+      "forecast",
+      "met norway",
+      "open-meteo",
+      "order",
+      "priority",
+      "provider",
+      "providers",
+      "region",
+      "source",
+      "temperature",
+      "time",
+      "weather"
+    ],
+    "parentLabel": "Date, time & region",
+    "icon": "restart_alt"
   },
   {
     "section": "windSpeedUnit",
